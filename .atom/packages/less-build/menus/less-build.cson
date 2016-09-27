@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'LESS Build'
+      'submenu': [
+        {
+          'label': 'Build LESS files'
+          'command': 'less-build:build'
+        }
+      ]
+    ]
+  }
+]
