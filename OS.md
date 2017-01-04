@@ -1,5 +1,10 @@
-# Elementary Os
-**1) Atualizar o sistema**
+Elementary Os
+====
+
+Configurações do SO:
+-------------------
+
+**1) Atualizar o sistema:**
 
 ```shell
 sudo apt update
@@ -13,7 +18,7 @@ sudo apt dist-upgrade
 ```shell
 sudo apt-get install software-properties-common
 ```
-**Tweeks:**
+**2.1 Tweeks:**
 
 *Repositório e Instalação:*
 ```shell
@@ -30,7 +35,9 @@ sudo apt install elementary-tweaks
 * Layou OS X
 * Cores escuras
 
-**3) Instalando Codecs para rodar todos os formatos de áudio e vídeo**
+**3) Configurações Adicionais:**
+
+**3.1 Instalando Codecs para rodar todos os formatos de áudio e vídeo**
 
 ```shell
 sudo apt install ubuntu-restricted-extras -y
@@ -42,7 +49,7 @@ Logo após use as setas para selecionar a opção "Sim" e dê "Enter" novamente.
 
 Aguarde o final do processo e você já terá os Codecs instalados.
 
-**4) Instalando PPAs e pacotes .deb**
+**3.2) Instalando PPAs e pacotes .deb**
 
 Essa versão não tem suporte para PPAs e pacotes .deb nativamente.
 
@@ -50,7 +57,7 @@ Essa versão não tem suporte para PPAs e pacotes .deb nativamente.
 sudo apt install software-properties-common gdebi -y
 ```
 
-**5) Instalando Gerenciador de Drivers**
+**3.3) Instalando Gerenciador de Drivers**
 
 Instalar a interface com o comando:
 
@@ -60,7 +67,7 @@ sudo apt install software-properties-gtk
 
 Ficará disponível em "Programas e atualizações". Gerenciamento de repositórios e drivers, exatamente como no Ubuntu.
 
-**6) Instalar Apps:**
+**4) Instalar Apps:**
 
 * Chrome (Site oficial)
 * Firefox (Terminal)
@@ -91,29 +98,32 @@ sudo apt install poedit
   * Mouse without borders
   * Wirar
 
-**7) Outras configurações**
+**5) Outras configurações**
   * Minimizar: canto inferior direito
   * Ctrl: para achar o mouse
 
 
-**8) Criar imagem do sistema:**
+Ambientes de Desenvolvimento
+----------------------------
 
-* Sytemback
+**1) Ambiente Front-end**
 
-**9) Ambiente Front-end**
-
-* Atom (colocar config do github),
-* Git (terminal, baixar as configurações pelo github),
+* Atom (Configs estão no GitHub)
+* Git
 * Nodejs
 * Bower
 * Grunt
 * Componentes
 
-**10) Ambiente PHP**
+**2) Ambiente PHP**
+
+* Apache
+* PHP
+* MySQL
+* PHPMyAdmin
+* Wordpress
 
 https://www.evernote.com/shard/s688/sh/5ad20ed3-c4bc-4a49-b81f-f313c7bc74ea/0d4a9dcf5044ad9ce99eb48a2d623e70
-
-Criar uma imagem, sem as configurações do Apache, apenas instalado.
 
 Configurar Virtual Host no servidor
 
