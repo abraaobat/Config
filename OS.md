@@ -1,5 +1,4 @@
-Elementary Os
-====
+# Elementary Os
 
 Configurações do SO:
 -------------------
