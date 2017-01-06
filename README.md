@@ -1,2 +1,2 @@
 # Config
-Configurações do computador de trabalho
+Configurações do meu computador de trabalho.
