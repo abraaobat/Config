@@ -75,7 +75,6 @@ Ficará disponível em "Programas e atualizações". Gerenciamento de repositór
 * Synaptic (Terminal),
 * Remmina (Site oficial)
 * VLC (Terminal)
-* Filezilla (Terminal)
 * Poedit
 ```shell
 sudo apt-add-repository ppa:vslavik/poedit
